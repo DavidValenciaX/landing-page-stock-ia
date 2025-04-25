@@ -1,0 +1,49 @@
+.main-header {
+  background-color: #2d2d2d;
+  color: #f6f8fa;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: none;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  height: 38px;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f6f8fa;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: #f6f8fa;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.header-right a:hover {
+  color: #2563eb;
+}
